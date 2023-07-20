@@ -14,7 +14,7 @@ describe('GET', function(){
     request
     .get('/')
     .set('Accept', 'text/html')
-    .expect(200, /George Orwell had a farm/ig, done);
+    .expect(200, /Old MacDonald had a farm/ig, done);
   })
 
   it('/api responds with json', function(done){
